@@ -1,12 +1,13 @@
+import Hero from "./Hero";
+import Plan from "./Plan";
+import OpenAccount from "../OpenAccount";
+
 function Signup() {
   return (
     <>
-      <h1>Sign Up</h1>
-      <h1>Sign Up</h1>
-      <h1>Sign Up</h1>
-      <h1>Sign Up</h1>
-      <h1>Sign Up</h1>
-      <h1>Sign Up</h1>
+      <Hero />
+      <Plan />
+      <OpenAccount />
     </>
   );
 }
