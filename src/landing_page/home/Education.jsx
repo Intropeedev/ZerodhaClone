@@ -4,7 +4,7 @@ function Education() {
     <section>
       <div className="container">
         <div className="row pl-6">
-          <div class="col-6 d-flex align-center justify-center">
+          <div className="col-6 d-flex align-center justify-center">
             <img src="/media/images/education.svg" className="w-40%"></img>
           </div>
 

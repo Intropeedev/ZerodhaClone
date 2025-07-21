@@ -1,4 +1,6 @@
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <div
@@ -10,25 +12,27 @@ function Navbar() {
       <div className="container ">
         <div className="row">
           <div className="mt-3 px-5 pt-2 col-6">
-            <img src="/media/images/logo.svg" className="w-30"></img>
+            <Link to="/">
+              <img src="/media/images/logo.svg" className="w-30"></img>
+            </Link>
           </div>
 
           <div className="col-6 p-2 mt-2">
             <ul className="d-flex flex-row gap-5">
               <li>
-                <a href="#">Signup</a>{" "}
+                <Link to="/signup">Signup</Link>{" "}
               </li>
               <li>
-                <a href="#">About</a>{" "}
+                <Link to="/about">About</Link>{" "}
               </li>
               <li>
-                <a href="#">Products</a>{" "}
+                <Link to="/products">Products</Link>{" "}
               </li>
               <li>
-                <a href="#">Pricing</a>{" "}
+                <Link to="/pricing">Pricing</Link>{" "}
               </li>
               <li>
-                <a href="#">Support</a>{" "}
+                <Link to="/support">Support</Link>{" "}
               </li>
               <li>
                 <GiHamburgerMenu
