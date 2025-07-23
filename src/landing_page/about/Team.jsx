@@ -12,7 +12,7 @@ function Team() {
             className="w-75 border rounded-full mb-4"
           ></img>
           <h5>Nithin Kamath</h5>
-          <h6 className="text-muted my-3">Founder, CEO</h6>
+          <h6 className="text-muted mb-3">Founder, CEO</h6>
         </div>
 
         <div className="col-7 my-2">

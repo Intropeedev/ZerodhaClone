@@ -17,7 +17,7 @@ function Footer() {
               <img src="/media/images/logo.svg" className="w-40"></img>
               <p className="mt-3 text-muted text-[14px]">
                 <PiCopyright className="iconStyle mr-2 mb-[2px]" />
-                2010-2025, Zerodha Broking Ltd. <br /> All rights reserved
+                2010 - 2025, Zerodha Broking Ltd. <br /> All rights reserved.
               </p>
               <RiTwitterXLine className="iconStyle text-muted mr-6 fs-5" />
               <ImFacebook2 className="iconStyle text-muted mr-6 fs-5" />
