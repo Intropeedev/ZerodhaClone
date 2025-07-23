@@ -8,15 +8,15 @@ function Stats() {
             <h3 className="fs-4">Trust with confidence</h3>
             <h4 className="mt-5 fs-5">Customer-first always</h4>
             <p className="text-muted">
-              That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh
-              crores of equity investments and contribute to 15% of daily retail
-              exchange volumes in India
+              That's why 1.6+ crore customers trust Zerodha with ~ ₹6 <br />
+              lakh crores of equity investments and contribute to 15% of daily
+              retail exchange volumes in India
             </p>
             <h3 className="mt-5 fs-5">No spam or gimmicks</h3>
             <p className="text-muted">
               No gimmicks, spam, "gamification", or annoying push notifications.
-              High quality apps that you use at your pace, the way you like.{" "}
-              <a href="#">Our philosophies.</a>
+              High quality apps that you use at your <br />
+              pace, the way you like. <a href="#">Our philosophies.</a>
             </p>
 
             <h3 className="mt-5 fs-5">The Zerodha universe</h3>

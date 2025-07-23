@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section>
-      <div className="container my-[120px]">
+      <div className="container mt-[120px] mb-[80px]">
         <div className="text-center row">
           <img
             src="/media/images/homeHero.png"

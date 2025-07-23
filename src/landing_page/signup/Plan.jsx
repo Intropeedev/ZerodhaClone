@@ -1,11 +1,11 @@
 function Plan() {
   return (
     <>
-      <h3 className="text-center mb-5 text-[12px]">
-        Investment options with Zerodha demat account
-      </h3>
-      <div className="container">
-        <div className="row mb-5 mt-3">
+      <div className="container my-[70px] pb-3">
+        <h4 className="text-center mb-5 pb-4">
+          Investment options with Zerodha demat account
+        </h4>
+        <div className="row">
           <div className="col-5">
             <div className="d-flex flex-row align-center justify-end gap-5 mb-5">
               <img src="/media/images/stocks-acop.svg" className="w-30"></img>
@@ -57,15 +57,18 @@ function Plan() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="container text-center">
-        <button
-          className="btn btn-primary py-2 fs-5 mt-4"
-          style={{ width: "20%", margin: "0 auto", backgroundColor: "#387ed1" }}
-        >
-          Explore Investments
-        </button>
+        <div className="container text-center my-5">
+          <button
+            className="btn btn-primary py-2 fs-5 fw-medium"
+            style={{
+              width: "20%",
+              margin: "0 auto",
+              backgroundColor: "#387ed1",
+            }}
+          >
+            Explore Investments
+          </button>
+        </div>
       </div>
     </>
   );
