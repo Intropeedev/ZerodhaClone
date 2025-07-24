@@ -48,6 +48,12 @@ function Product() {
         googlePlay={"/media/images/googlePlayBadge.svg"}
         appStore={"/media/images/appstoreBadge.svg"}
       />
+
+      <p className="text-center fs-5 mb-5 pb-5">
+        Want to know more about our technology stack? Check out the
+        <a href="#"> Zerodha.tech </a>
+        blog.
+      </p>
       <Universe />
     </>
   );
