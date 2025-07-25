@@ -1,18 +1,14 @@
 import Hero from "./Hero";
 import Brokerage from "./Brokerage";
+import ChargeTable from "./Chargetable";
+import Charges from "./Charges";
 
 function Pricing() {
   return (
     <>
-      <>
-        <h1>Sign Up</h1>
-        <h1>Sign Up</h1>
-        <h1>Sign Up</h1>
-        <h1>Sign Up</h1>
-        <h1>Sign Up</h1>
-        <h1>Sign Up</h1>
-      </>
       <Hero />
+      <ChargeTable />
+      <Charges />
       <Brokerage />
     </>
   );
