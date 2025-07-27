@@ -25,7 +25,7 @@ function ChargeTable() {
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr className="border-top">
                 <td scope="row" className=" text-muted p-3 mt-3">
                   Brokerage
                 </td>

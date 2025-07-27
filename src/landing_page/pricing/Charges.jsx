@@ -2,7 +2,7 @@ function Charges() {
   return (
     <div className="container mt-5">
       <div></div>
-      <h5 className="text-center">
+      <h5 className="text-center text-muted">
         <a href="#">Calculate your costs upfront </a>
         using our brokerage calculator
       </h5>

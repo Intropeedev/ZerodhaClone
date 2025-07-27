@@ -5,7 +5,7 @@ function Brokerage() {
         <div className="col-1"></div>
         <div className="col-10 my-5">
           <h4>Charges for account opening</h4>
-          <table className="border text-[14px] outer-border-only w-full table-sm mt-4">
+          <table className="border text-[14px] outer-border-only w-full table-sm text-muted mt-4">
             <thead className="fw-100">
               <tr>
                 <th className="p-3 text-[14px]">Type of account</th>
@@ -13,7 +13,7 @@ function Brokerage() {
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t">
+              <tr className="border-top">
                 <td scope="row" className="p-3 mt-3">
                   Online account
                 </td>
@@ -57,7 +57,7 @@ function Brokerage() {
         <div className="col-1"></div>
         <div className="col-10">
           <h4>Charges for optional value added services</h4>
-          <table className="border outer-border-only w-full text-[14px] table-sm mt-4">
+          <table className="border outer-border-only w-full text-[14px] table-sm mt-4 text-muted">
             <thead>
               <tr>
                 <th className="p-3 mt-3 w-25">Service</th>
@@ -66,7 +66,7 @@ function Brokerage() {
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr className="border-top">
                 <td scope="row" className="p-3 mt-3 ">
                   Tickertape
                 </td>

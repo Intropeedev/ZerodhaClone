@@ -1,10 +1,10 @@
-import Hero from "./Hero";
+import SupportLink from "./SupportLink";
 import CreateTicket from "./CreateTicket";
 function Support() {
   return (
     <>
-      <Hero />
       <CreateTicket />
+      <SupportLink />
     </>
   );
 }
