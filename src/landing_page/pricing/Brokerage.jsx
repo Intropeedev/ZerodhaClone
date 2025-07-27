@@ -3,44 +3,50 @@ function Brokerage() {
     <div className="container mx-auto my-5">
       <div className="row justify-end my-5">
         <div className="col-1"></div>
-        <div className="col-10">
+        <div className="col-10 my-5">
           <h4>Charges for account opening</h4>
-          <table className="table table-striped table-bordered text-[14px] table-sm mt-4">
-            <thead className="fw-300 text-muted">
+          <table className="border text-[14px] outer-border-only w-full table-sm mt-4">
+            <thead className="fw-100">
               <tr>
-                <th className="text-muted">
-                  <td>Type of account</td>
-                </th>
-                <th className="text-muted">
-                  <td>Charges</td>
-                </th>
+                <th className="p-3 text-[14px]">Type of account</th>
+                <th className="p-2">Charges</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td scope="row" className="p-4 mt-3">
+              <tr className="border-t">
+                <td scope="row" className="p-3 mt-3">
                   Online account
                 </td>
-                <td className="mt-3">free</td>
+                <td>
+                  <p className="bg-[#4caf50] w-[50px] text-white text-center py-1 m-2 rounded-sm fw-300 text-[12px]">
+                    FREE
+                  </p>
+                </td>
+              </tr>
+
+              <tr className="bg-gray-50">
+                <td scope="row" className="p-3 mt-3">
+                  Offline account
+                </td>
+                <td>
+                  <p className="bg-[#4caf50] w-[50px] text-white text-center py-1 m-2 rounded-sm fw-300 text-[12px]">
+                    FREE
+                  </p>
+                </td>
               </tr>
 
               <tr>
-                <td scope="row">Offline account</td>
-                <td className="mt-3">free</td>
-              </tr>
-
-              <tr className="text-muted">
-                <td scope="row" className="pt-3 pl-3">
+                <td scope="row" className="p-3 mt-3">
                   NRI account (offline only)
                 </td>
-                <td className="w-[15%] text-muted">₹ 500</td>
+                <td className="p-3 mt-3">₹ 500</td>
               </tr>
 
-              <tr>
-                <td scope="row">
+              <tr className="bg-gray-50">
+                <td scope="row" className="p-3 mt-3 ">
                   Partnership, LLP, HUF, or Corporate accounts (offline only)
                 </td>
-                <td className="w-[15%] text-muted">₹ 500</td>
+                <td className="p-3 mt-3">₹ 500</td>
               </tr>
             </tbody>
           </table>
@@ -51,42 +57,37 @@ function Brokerage() {
         <div className="col-1"></div>
         <div className="col-10">
           <h4>Charges for optional value added services</h4>
-          <table className="table table-striped table-bordered text-[14px] table-sm mt-4">
-            <thead className="fw-300 text-muted">
+          <table className="border outer-border-only w-full text-[14px] table-sm mt-4">
+            <thead>
               <tr>
-                <th className="text-muted">
-                  <td>Type of account</td>
-                </th>
-                <th className="text-muted">
-                  <td>Charges</td>
-                </th>
+                <th className="p-3 mt-3 w-25">Service</th>
+                <th className="p-3 mt-3 w-25">Billing Frquency</th>
+                <th className="p-3 mt-3 w-100">Charges</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td scope="row" className="p-4 mt-3">
-                  Online account
+                <td scope="row" className="p-3 mt-3 ">
+                  Tickertape
                 </td>
-                <td className="mt-3">free</td>
+                <td className="p-3 mt-3 ">Monthly / Annual</td>
+                <td className="p-3 mt-3 ">Free: 0 | Pro: 249/2399</td>
+              </tr>
+
+              <tr className="bg-gray-50">
+                <td scope="row" className="p-3 mt-3 ">
+                  Smallcase
+                </td>
+                <td className="p-3 mt-3 ">Per transaction</td>
+                <td className="p-3 mt-3 ">Buy & Invest More: 100 | SIP: 10</td>
               </tr>
 
               <tr>
-                <td scope="row">Offline account</td>
-                <td className="mt-3">free</td>
-              </tr>
-
-              <tr className="text-muted">
-                <td scope="row" className="pt-3 pl-3">
-                  NRI account (offline only)
+                <td scope="row" className="p-3 mt-3 ">
+                  Kite Connect
                 </td>
-                <td className="w-[15%] text-muted">₹ 500</td>
-              </tr>
-
-              <tr>
-                <td scope="row">
-                  Partnership, LLP, HUF, or Corporate accounts (offline only)
-                </td>
-                <td className="w-[15%] text-muted">₹ 500</td>
+                <td className="p-3 mt-3">Monthly</td>
+                <td className="p-3 mt-3">Connect: 500 | Historical: 500</td>
               </tr>
             </tbody>
           </table>
