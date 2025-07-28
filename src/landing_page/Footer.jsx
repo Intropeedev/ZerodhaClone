@@ -10,8 +10,11 @@ import { FaTelegram } from "react-icons/fa";
 function Footer() {
   return (
     <footer>
-      <div style={{ backgroundColor: "#fbfbfb" }}>
-        <div className="container px-5 pt-5 mt-4">
+      <div
+        className="border-t border-gray-200 mt-4"
+        style={{ backgroundColor: "#fbfbfb" }}
+      >
+        <div className="container px-5 pt-5">
           <div className="row">
             <div className="col-3">
               <img src="/media/images/logo.svg" className="w-40"></img>
