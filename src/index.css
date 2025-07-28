@@ -18,3 +18,7 @@ li a {
 ul li a:hover{
     color: #387ed1;
 }
+
+.py-3 li a {
+    color: #387ed1;
+}
