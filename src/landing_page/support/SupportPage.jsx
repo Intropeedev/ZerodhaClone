@@ -1,5 +1,5 @@
 import SupportLink from "./SupportLink";
-import CreateTicket from "./CreateTicket";
+import Hero from "./Hero.jsx";
 
 import { CgProfile } from "react-icons/cg";
 import { BiBarChartSquare, BiCoin } from "react-icons/bi";
@@ -10,10 +10,10 @@ import { CgCircleci } from "react-icons/cg";
 function Support() {
   return (
     <>
-      <CreateTicket />
+      <Hero />
       <div className="container">
         <div className="row">
-          <div className="col-8 d-flex flex-col">
+          <div className="col-8">
             <SupportLink
               icon={FiPlusCircle}
               title={"Account opening"}
@@ -158,7 +158,7 @@ function Support() {
               }
             />
           </div>
-          <div className="col-4 d-flex flex-col mt-4 px-4 gap-3 text-[16px]">
+          <div className="col-4 mt-4 px-4 gap-3 text-[16px]">
             <ul
               className="list-disc space-y-3 leading-normal border-l-7 [border-left-color:#ff9100] py-3 pl-5 w-[90%]"
               style={{ backgroundColor: "#fff4e5" }}
@@ -180,42 +180,38 @@ function Support() {
             <div className="w-[90%]">
               <table className="table table-bordered rounded ">
                 <thead>
-                  <tr className="bg-gray-50">
-                    <th scope="col" className="p-3 text-muted">
+                  <tr>
+                    <th
+                      scope="col"
+                      colSpan="2"
+                      className="p-3 text-muted bg-light"
+                    >
                       Quick links
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" className="p-3 text-muted ">
-                      <td>
-                        <a href="#">1. Track account opening</a>
-                      </td>
-                    </th>
+                    <td scope="row" className="p-3 text-muted ">
+                      <a href="#">1. Track account opening</a>
+                    </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="p-3 text-muted">
-                      <td>
-                        <a href="#">2. Track segment activation</a>
-                      </td>
-                    </th>
+                    <td scope="row" className="p-3 text-muted">
+                      <a href="#">2. Track segment activation</a>
+                    </td>
                   </tr>
 
                   <tr>
-                    <th scope="row" className="p-3 text-muted">
-                      <td>
-                        <a href="#">3. Intraday margins</a>
-                      </td>
-                    </th>
+                    <td scope="row" className="p-3 text-muted">
+                      <a href="#">3. Intraday margins</a>
+                    </td>
                   </tr>
 
                   <tr>
-                    <th scope="row" className="p-3 text-muted">
-                      <td>
-                        <a href="#">4. Kite user manual</a>
-                      </td>
-                    </th>
+                    <td scope="row" className="p-3 text-muted">
+                      <a href="#">4. Kite user manual</a>
+                    </td>
                   </tr>
                 </tbody>
               </table>

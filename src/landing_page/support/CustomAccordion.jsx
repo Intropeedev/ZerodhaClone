@@ -5,13 +5,13 @@ const CustomAccordion = ({ title, content, Icon }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="border mb-2 ml-5">
-      <div className=" d-flex justify-start">
+      <div className="d-flex">
         <Icon
-          className="text-primary text-[55px] p-3"
+          className="text-primary text-[60px] p-3"
           style={{ backgroundColor: "#f7fbfe" }}
         />
         <div
-          className=" d-flex w-100 justify-between gap-5 px-4 my-3 cursor-pointer"
+          className=" d-flex w-100 justify-between gap-5 px-4 mt-4 mb-2 cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
           style={{ cursor: "pointer" }}
         >
@@ -23,7 +23,7 @@ const CustomAccordion = ({ title, content, Icon }) => {
       </div>
 
       {isOpen && (
-        <div className="p-3 border-top bg-white d-flex flex-nowrap">
+        <div className="p-3 border-top bg-white">
           <p className="mb-0">{content}</p>
         </div>
       )}
