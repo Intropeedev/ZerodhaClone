@@ -1,0 +1,11 @@
+function Holdings() {
+  return (
+    <>
+      <div>
+        <h1>Holdings</h1>
+      </div>
+    </>
+  );
+}
+
+export default Holdings;
