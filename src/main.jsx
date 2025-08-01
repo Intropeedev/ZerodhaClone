@@ -14,7 +14,7 @@ import NotFound from "./landing_page/NotFound";
 
 import Home from "./dashboard_page/Home";
 
-//Wrapper component to maks sure it renders Navbar and footer based on conditional.
+//Wrapper component to make sure it renders Navbar and footer based on conditional.
 function AppRoutes() {
   const location = useLocation();
 
