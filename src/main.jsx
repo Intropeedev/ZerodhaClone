@@ -18,7 +18,7 @@ import Home from "./dashboard_page/Home";
 function AppRoutes() {
   const location = useLocation();
 
-  // Check if the route starts with "/dashboard"
+  // Check if the route starts with "/dashboard, /orders, ...."
   const hiddenLayoutPaths = [
     "/dashboard",
     "/orders",

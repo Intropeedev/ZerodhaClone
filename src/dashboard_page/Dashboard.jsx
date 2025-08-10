@@ -1,23 +1,26 @@
-import { IoSearchSharp } from "react-icons/io5";
-import { MdOutlineTune } from "react-icons/md";
+import WatchList from "./WatchList";
+import Summary from "./Summary";
+import Orders from "./Orders";
+import Holdings from "./Holdings";
+import Position from "./Positions";
+import Apps from "./Apps";
+import Funds from "./Funds";
+
+import { Routes, Route } from "react-router-dom";
 function dashboard() {
   return (
     <>
-      <div className="d-flex flex-row w-[35%] ">
-        <div className="img-wrapper">
-          <div className="input-group shadow-sm">
-            <span className="input-group-text bg-white px-4" id="basic-addon1">
-              <IoSearchSharp className="fs-4" />
-            </span>
-            <input
-              type="text"
-              className="form-control p-4 fs-6 text-muted "
-              placeholder="Eg: how do i activate F&O..."
-              aria-label="Ask Anything"
-              aria-describedby="basic-addon1"
-            />
-            <MdOutlineTune />
-          </div>
+      <div className="d-flex">
+        <WatchList />
+        <div>
+          <Routes>
+            <Route exact path="/" element={<Summary />} />
+            <Route path="/orders" element={<Orders />} />
+            <Route path="/holdings" element={<Holdings />} />
+            <Route path="/positions" element={<Position />} />
+            <Route path="/funds" element={<Funds />} />
+            <Route path="/apps" element={<Apps />} />
+          </Routes>
         </div>
       </div>
     </>
